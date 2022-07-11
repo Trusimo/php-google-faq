@@ -44,10 +44,8 @@ $faq = [
     <?php
         foreach ($faq as $par) {
             echo $par["titolo"];
-            foreach ($par["p"] as $paragrafo) {
-            echo $paragrafo;
+            echo $par["p"];
         }
-    }
     ?>
     </h1>
 
